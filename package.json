@@ -1,0 +1,17 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "description": "Descripción de mi proyecto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-server": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "lodash": "^4.17.21"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
