@@ -4,15 +4,15 @@ const nodemailer = require("nodemailer");
 let transporter = nodemailer.createTransport({
   service: "hotmail",
   auth: {
-    user: "pruebasbackend321@hotmail.com",
-    pass: "backend1",
+    user: "hectorrodriguezzzz1527@outlook.com",
+    pass: "",
   },
 });
 let mailOptions = {
-  from: "pruebasbackend321@hotmail.com",
-  to: "pruebasbackend321@hotmail.com",
+  from: "hectorrodriguezzzz1527@outlook.com",
+  to: "j.william03@hotmail.com",
   subject: "Implementación de servidor de correos",
-  text: "¡Servidor de correo funcionando excelente!",
+  text: "¡Servidor de correo funcionando excelente! Hector Rodriguez",
 };
 transporter.sendMail(mailOptions, (error, info) => {
   if (error) {
