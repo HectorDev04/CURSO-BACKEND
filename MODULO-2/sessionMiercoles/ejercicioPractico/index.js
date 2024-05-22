@@ -66,7 +66,7 @@ const verificarCredenciales = () => {
         credencialesIngresadas.contraseñaIngresada ===
           credencialesGuardadas.contraseña
       ) {
-        console.log("¡Bienvenido!");
+        console.log("Inicio de sesion exitoso. ¡Bienvenido!");
       } else {
         console.log("Credenciales incorrectas. Verifique sus credenciales.");
         verificarCredenciales();
